@@ -1,0 +1,12 @@
+body {
+  margin: 20px;
+}
+          
+#tagInput {
+  width: 90vw;
+  min-height: 40vh;
+}
+#tagOutput {
+  width: 90vw;
+  min-height: 40vh;
+}
