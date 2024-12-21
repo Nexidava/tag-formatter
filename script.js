@@ -12,7 +12,7 @@ const replacements = {
 
 // custom youtube fixes
   "(ww)w+": "$1", // reduce any number of ws greater than 2 to 2
-  "#": "hashtag ",
+  "#([^\\d])": "hashtag $1",
 }
 
 // censor function
